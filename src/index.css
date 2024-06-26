@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "Inter", sans-serif;
+    color:#2b283a;
+    max-width: 550px;
+    font-size: 10.24px;
+    padding:0;
+    margin:0 auto;
+    /* border: 1px solid black; */
+}
+
+/*typography*/
+.header-title{
+    font-size:1.42rem;
+    font-weight: 500;
+    color:#ffffff;
+}
+
+p{
+    font-size: 1rem;
+}
+
+
+/*image*/
+.header-icon{
+    width: 24px;
+}
+
+/*layout*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5em;
+    background-color: #F55A5A;
+}
+
+.card-container{
+    
+    padding:5em 2.5em 0;/*bottom padding is 0*/
+    /* border: 5px solid hotpink; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.25em;
+    /* border:2px solid green; */
+    margin-bottom: 3.5em;
+}
+
+.card::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: -18px;
+    left: 0;
+    background-color: #F5F5F5;
+}
+
+.location-image{
+    width: 125px;
+    /* border: 1px solid green; */
+}
+
+.content{
+    align-self: flex-start;
+}
+
+.location-details{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:0.25em;
+    font-size: 1rem;
+    margin: 1.5625em 0  0.9em;
+    /* border: 1px solid hotpink; */
+}
+
+.location-icon{
+    width: 8px;
+}
+
+.location{
+    text-transform: uppercase;
+}
+
+.google-maps-url{
+    color:#918e9b;
+}
+
+.title{
+    font-size:2.5rem ;
+    font-weight: 700;
+    margin: 0;
+}
+
+.date{
+    margin: 1.5em 0 1em;
+    font-weight: 700;
+}
