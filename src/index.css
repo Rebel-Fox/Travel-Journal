@@ -72,6 +72,8 @@ header{
 
 .location-image{
     width: 125px;
+    height: 167px;
+    object-fit: cover;
     /* border: 1px solid green; */
 }
 
@@ -108,6 +110,7 @@ header{
 }
 
 .date{
+    display: inline-block;
     margin: 1.5em 0 1em;
     font-weight: 700;
 }

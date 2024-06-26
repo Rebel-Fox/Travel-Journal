@@ -1,29 +1,29 @@
 export default [
     {
-        title: "Mount Fuji",
-        location: "Japan",
-        googleMapsUrl: "https://maps.app.goo.gl/Lbb9WQ7xPSAuMajWA",
-        startDate: "12 Jan, 2021",
-        endDate: "24 Jan, 2021",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        image: "Mount-Fuji.png"
+        title: "Khandagiri Caves",
+        location: "Bhubaneswar,India",
+        googleMapsUrl: "https://maps.app.goo.gl/5VMLaW3cBwoj3V1P6",
+        startDate: "10 Oct, 2023",
+        endDate: "",
+        description: "Udayagiri and Khandagiri Caves, formerly called Kattaka Caves or Cuttack caves, are partly natural and partly artificial caves of archaeological, historical and religious importance near the city of Bhubaneswar in Odisha, India.",
+        image: "Khandagiri-Caves.jpg"
     },
     {
-        title: "Sydney Opera",
-        location: "Australia",
-        googleMapsUrl: "https://maps.app.goo.gl/b7GMjuRecYCFVCUu9",
-        startDate: "27 May, 2021",
-        endDate: "8 Jun, 2021",
-        description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
-        image: "Sydney-Opera-House.png"
+        title: "RHR-Hostel",
+        location: "Bhubaneswar,India",
+        googleMapsUrl: "https://maps.app.goo.gl/4MgaKNkDSPczTF8T7",
+        startDate: "5 Aug, 2023",
+        endDate: "3 May, 2024",
+        description: "The newest hostel of IIT Bhubaneswar housing the first year B.tech,ITEP,MSC,PHD,M.Tech students ,having the best facilites amongst all other already existing hostels",
+        image: "RHR-Hostel.jpg"
     },
     {
-        title: "Geirangerfjord",
-        location: "Norway",
-        googleMapsUrl: "https://maps.app.goo.gl/v6kyLqC6VFKwQ5Sq9",
-        startDate: "01 Oct, 2021",
-        endDate: "18 Nov, 2021",
-        description: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
-        image: "Geirangerfjord.png"
+        title: "Nandankanan",
+        location: "Bhubaneswar,India",
+        googleMapsUrl: "https://maps.app.goo.gl/eVGTDCQxMq1LLpGQ8",
+        startDate: "03 Mar, 2024",
+        endDate: "",
+        description: "Nandankanan Zoological Park is a 437-hectare (1,080-acre) zoo and botanical garden in Bhubaneswar, Odisha, India. Established in 1960, it was opened to the public in 1979 and became the first zoo in India to join World Association of Zoos and Aquariums (WAZA) in 2009",
+        image: "Nandankanan.jpg"
     }
 ]
