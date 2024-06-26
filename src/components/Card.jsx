@@ -4,7 +4,7 @@ import locationIcon from '../assets/location.png'
 export default function Card(props) {
     return (
         <section className='card'>
-            <picture><img src={`./src/assets/${props.image}`} alt={props.title} className='location-image'/></picture>
+            <picture><img src={`./location-images/${props.image}`} alt={props.title} className='location-image'/></picture>
             <div className="content">
                 <div className='location-details'>
                     <img src={locationIcon} alt='location icon' className='location-icon' />
